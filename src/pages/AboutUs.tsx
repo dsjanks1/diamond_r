@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutUs: React.FC = () => {
-    return <div>Home Page</div>;
+    return <div>About Us</div>;
 };
 
 export default AboutUs;

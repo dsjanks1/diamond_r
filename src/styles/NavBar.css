@@ -1,0 +1,48 @@
+/* src/components/NavBar.css */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    padding: 10px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-links {
+    position: absolute;
+    right: 20px; /* Adjust based on your layout */
+    top: 10px; /* Adjust this value so that it does not overlap the logo */
+}
+
+.social-media-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    height: 50px; /* Adjust based on your logo size */
+    margin-bottom: 10px; /* Add space below the logo */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin-top: 60px; Add margin-top equal to the height of the top-bar */
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

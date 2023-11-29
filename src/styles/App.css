@@ -29,7 +29,24 @@
 }
 
 .content {
-    padding-top: 120px; /* Adjust this value based on the actual height of your navbar */
+  margin-top: 120px; /* Adjust this value based on the actual height of your navbar for desktop */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .content {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: 5vmin; /* Smaller font size for mobile */
+  }
+
+  .content {
+    padding-top: 60px; /* Less padding for the mobile navbar */
+  }
 }
 
 @keyframes App-logo-spin {

@@ -37,7 +37,6 @@
     justify-content: center;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* margin-top: 60px; Add margin-top equal to the height of the top-bar */
 }
 
 .navbar a {
@@ -45,4 +44,30 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .top-bar {
+        padding: 10px;
+    }
+
+    .social-media-links {
+        display: none; /* Hide social links on small devices */
+    }
+
+    .logo {
+        height: 40px; /* Smaller logo for mobile */
+        margin-bottom: 5px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 5px 0;
+    }
+
+    .navbar a {
+        margin: 5px 0; /* Increase tap area for links */
+        font-size: 1.2em; /* Larger text for better readability */
+    }
 }

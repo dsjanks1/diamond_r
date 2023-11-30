@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/diamond_r/static/css/main.473ef2cb.css",
-    "main.js": "/diamond_r/static/js/main.ea69d729.js",
+    "main.css": "/diamond_r/static/css/main.8f001bdf.css",
+    "main.js": "/diamond_r/static/js/main.91653388.js",
     "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/diamond_r/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/diamond_r/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "static/media/logo.png": "/diamond_r/static/media/logo.e683b6dc3baaeecfd612.png",
     "index.html": "/diamond_r/index.html",
-    "main.473ef2cb.css.map": "/diamond_r/static/css/main.473ef2cb.css.map",
-    "main.ea69d729.js.map": "/diamond_r/static/js/main.ea69d729.js.map",
+    "main.8f001bdf.css.map": "/diamond_r/static/css/main.8f001bdf.css.map",
+    "main.91653388.js.map": "/diamond_r/static/js/main.91653388.js.map",
     "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.473ef2cb.css",
-    "static/js/main.ea69d729.js"
+    "static/css/main.8f001bdf.css",
+    "static/js/main.91653388.js"
   ]
 }

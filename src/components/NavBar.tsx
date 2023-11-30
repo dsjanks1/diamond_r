@@ -1,25 +1,37 @@
-// src/components/NavBar.tsx
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Update the path to your logo image
-import '../styles/NavBar.css';
+import '../styles/NavBar.css'; // Assuming your CSS file is in the same directory
+import logoImage from '../assets/logo.png'; // Update the path to where your actual logo is
 
 const NavBar: React.FC = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            setScrolled(offset > 200); // Adjust this value as needed
+        };
+
+        // Add scroll event listener
+        window.addEventListener('scroll', handleScroll);
+
+        // Clean up the event listener
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <div className="navbar-container">
-            <div className="top-bar">
-                <img src={logo} alt="Logo" className="logo" />
-                <div className="social-media-links">
-                    <a href="https://facebook.com">FACEBOOK</a>
-                    <a href="https://instagram.com">INSTAGRAM</a>
-                </div>
+        <nav className={`navbar-container ${scrolled ? 'scrolled' : ''}`}>
+            <div className="navbar-logo">
+                <img src={logoImage} alt="Logo" />
             </div>
-            <nav className="navbar">
+            <div className="navbar-links">
                 <Link to="/">Home</Link>
                 <Link to="/about-us">About Us</Link>
                 <Link to="/contact-us">Contact Us</Link>
-            </nav>
-        </div>
+            </div>
+        </nav>
     );
 };
 

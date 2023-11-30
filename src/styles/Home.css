@@ -1,6 +1,13 @@
 /* src/components/Home.css */
-.home-container {
-    background-color: #005f99; /* Adjust to the blue from the screenshot */
+.land-container {
+    background-color: #005f99;
+    color: white;
+    padding-top: 160px; /* Adjust to the height of your navbar */
+    padding-bottom: 50px;
+    min-height: 100vh; /* To ensure the container takes full viewport height */
+}
+.two-container {
+    background-color: #1f9900;
     color: white;
     padding-top: 160px; /* Adjust to the height of your navbar */
     padding-bottom: 50px;
@@ -13,6 +20,7 @@
     padding: 2em;
     text-align: center;
 }
+
 
 .home-title {
     font-size: 2.5em; /* Adjust to match your design */

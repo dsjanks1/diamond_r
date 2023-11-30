@@ -48,6 +48,21 @@
     padding-top: 60px; /* Less padding for the mobile navbar */
   }
 }
+.small-icon {
+  font-size: 4rem; /* You can set this to any size you want */
+}
+.medium-icon {
+  font-size: 4rem; /* You can set this to any size you want */
+}
+.large-icon {
+  font-size: 6rem; /* You can set this to any size you want */
+}
+.extra-large-icon {
+  font-size: 8rem; /* You can set this to any size you want */
+}
+.font-weight-light{
+  font-weight: 100 !important;
+}
 
 @keyframes App-logo-spin {
   from {

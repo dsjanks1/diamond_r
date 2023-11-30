@@ -1,3 +1,86 @@
-.home-container{
-    margin-top: 500px;
+/* src/components/Home.css */
+.land-container {
+    background-color: #005f99;
+    color: white;
+    padding-top: 160px; /* Adjust to the height of your navbar */
+    padding-bottom: 50px;
+    min-height: 100vh; /* To ensure the container takes full viewport height */
+}
+.two-container {
+    background-color: #1f9900;
+    color: white;
+    padding-top: 160px; /* Adjust to the height of your navbar */
+    padding-bottom: 50px;
+    min-height: 100vh; /* To ensure the container takes full viewport height */
+}
+
+.home-content {
+    max-width: 960px; /* Or the max-width you desire */
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+}
+
+
+.home-title {
+    font-size: 2.5em; /* Adjust to match your design */
+    margin-bottom: 20px;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+    margin-bottom: 20px;
+}
+
+.home-button {
+    background-color: #0084ff; /* Adjust to match your design */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home-button img {
+    margin-right: 8px;
+    height: 24px; /* Adjust to match your design */
+}
+
+.home-button:hover {
+    background-color: #006fdd; /* Darker shade for hover state */
+}
+
+.home-features-link {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .home-content {
+        padding: 1em;
+    }
+
+    .home-title {
+        font-size: 1.5em;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+    }
+
+    .home-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .home-button img {
+        margin: 0 auto; /* Center icon in mobile view */
+    }
 }

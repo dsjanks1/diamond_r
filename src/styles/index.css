@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.icon-text {
+  margin-top: 0.5rem; /* Adds some space between the icon and the text */
+  font-size: 0.9rem; /* Set the size of the text under the icon */
+  color: #000; /* Set the color of the text, if needed */
+}

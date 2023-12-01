@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/diamond_r/static/css/main.8f001bdf.css",
-    "main.js": "/diamond_r/static/js/main.91653388.js",
-    "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/diamond_r/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
-    "static/media/bootstrap-icons.woff2?": "/diamond_r/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
-    "static/media/logo.png": "/diamond_r/static/media/logo.e683b6dc3baaeecfd612.png",
-    "index.html": "/diamond_r/index.html",
-    "main.8f001bdf.css.map": "/diamond_r/static/css/main.8f001bdf.css.map",
-    "main.91653388.js.map": "/diamond_r/static/js/main.91653388.js.map",
-    "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
+    "main.css": "/static/css/main.2b746c00.css",
+    "main.js": "/static/js/main.c3fe5d00.js",
+    "static/js/787.416d4c4d.chunk.js": "/static/js/787.416d4c4d.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/logo.png": "/static/media/logo.e683b6dc3baaeecfd612.png",
+    "index.html": "/index.html",
+    "main.2b746c00.css.map": "/static/css/main.2b746c00.css.map",
+    "main.c3fe5d00.js.map": "/static/js/main.c3fe5d00.js.map",
+    "787.416d4c4d.chunk.js.map": "/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f001bdf.css",
-    "static/js/main.91653388.js"
+    "static/css/main.2b746c00.css",
+    "static/js/main.c3fe5d00.js"
   ]
 }

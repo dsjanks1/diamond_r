@@ -1,17 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../styles/Home.css';
 import homeImg from '../assets/homeImg.png';
 import ScrollAnimated from '../components/ScrollAnimated';
 const Home: React.FC = () => {
+    const [activeTab, setActiveTab] = useState('kyc');
+
+    const handleTabClick = (tab: string) => {
+        setActiveTab(tab);
+    };
     return (
         <div>
         <div className='bg-primary land-container'>
         <ScrollAnimated>
-
             <div className="container py-lg-6 text-center d-flex align-items-center">
-                <div className="row align-items-lg-center ">
+                <div className="row align-items-lg-center">
                     <div className='col-lg-4 offset-lg-1 order-lg-2 p-5 p-lg-0'>
-                    <img src={homeImg} alt="Logo" />
+                    <img src={homeImg} alt="Logo" className="img-fluid"/>
                     </div>
                     <div className='col-lg-6 order-lg-1 text-lg-left'>
                     <h1 className="home-title">
@@ -69,6 +73,87 @@ const Home: React.FC = () => {
                         Verified by VDV — where technology meets trust.
                     </p>
                     <a href="/signup" className="join-link">Secure Your Diamond Business Future</a>
+                </div>
+            </div>
+            <div className="container py-5">
+                <h2 className="text-center mb-4">Our Services</h2>
+                <div className="services-tabs">
+                    <div className="d-flex justify-content-center mb-3">
+                        <button 
+                            className={`btn mx-2 ${activeTab === 'kyc' ? 'btn-info' : 'btn-outline-info'}`} 
+                            onClick={() => handleTabClick('kyc')}
+                        >
+                            KYC – Know Your Client
+                        </button>
+                        <button 
+                            className={`btn mx-2 ${activeTab === 'kyb' ? 'btn-primary' : 'btn-outline-primary'}`} 
+                            onClick={() => handleTabClick('kyb')}
+                        >
+                            KYB – Know Your Business
+                        </button>
+                    </div>
+                    <div className="tab-content">
+                        {activeTab === 'kyc' && (
+                            <div className="kyc-content">
+                                {/* KYC content */}
+                                <p>Identity Document Verification</p>
+                                <p>Ongoing ID Monitoring</p>
+                                <p>Known Face Search</p>
+                                <p>Proof of Address Verification</p>
+                                <p>AML Screening: PEPs, sanctions, watchlists and adverse media</p>
+                                <p>Email Verification</p>
+                                <p>Phone Verification</p>
+                            </div>
+                        )}
+                        {activeTab === 'kyb' && (
+                            <div className="kyb-content">
+                                {/* KYB content */}
+                                <p>Automated Corporate Registry Check</p>
+                                <p>Corporate AML Screening</p>
+                                <p>Ownership and Management Structure</p>
+                                <p>Intermediate Shareholder Check</p>
+                                <p>Ongoing Corporate AML Monitoring</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </div>
+            <div className="container py-5">
+                <h2 className="text-center mb-4">Our Services</h2>
+                <div className="row">
+                    {/* KYC Section */}
+                    <div className="col-md-6 mb-4">
+                        <div className="card h-100">
+                            <div className="card-header bg-info text-white">
+                                <h3>KYC – Know Your Client</h3>
+                            </div>
+                            <ul className="list-group list-group-flush">
+                                <li className="list-group-item">Identity Document Verification</li>
+                                <li className="list-group-item">Ongoing ID Monitoring</li>
+                                <li className="list-group-item">Known Face Search</li>
+                                <li className="list-group-item">Proof of Address Verification</li>
+                                <li className="list-group-item">AML Screening: PEPs, sanctions, watchlists and adverse media</li>
+                                <li className="list-group-item">Email Verification</li>
+                                <li className="list-group-item">Phone Verification</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    {/* KYB Section */}
+                    <div className="col-md-6 mb-4">
+                        <div className="card h-100">
+                            <div className="card-header bg-primary text-white">
+                                <h3>KYB – Know Your Business</h3>
+                            </div>
+                            <ul className="list-group list-group-flush">
+                                <li className="list-group-item">Automated Corporate Registry Check</li>
+                                <li className="list-group-item">Corporate AML Screening</li>
+                                <li className="list-group-item">Ownership and Management Structure</li>
+                                <li className="list-group-item">Intermediate Shareholder Check</li>
+                                <li className="list-group-item">Ongoing Corporate AML Monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

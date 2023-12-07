@@ -28,10 +28,6 @@
   color: #61dafb;
 }
 
-.content {
-  /* margin-top: 120px; Adjust this value based on the actual height of your navbar for desktop */
-}
-
 /* Mobile Styles */
 @media (max-width: 768px) {
   .content {

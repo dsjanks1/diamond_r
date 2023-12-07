@@ -1,58 +1,75 @@
 import React from 'react';
-import '../styles/Home.css'; // Ensure you have a corresponding CSS file
-import iosIcon from './ios-icon.svg'; // Add your iOS icon asset path
-import androidIcon from './android-icon.svg'; // Add your Android icon asset path
+import '../styles/Home.css';
+import homeImg from '../assets/homeImg.png';
 
 const Home: React.FC = () => {
     return (
         <div>
-        <div className="land-container bg-primary">
-            <div className="home-content">
-                <h1 className="home-title">A KYC (Know Your Client) and KYB (Know Your Business) software solution driven by professionals.</h1>
-                <div className="home-buttons">
-                    <a href="#" className="home-button ios">
-                        {/* <img src={iosIcon} alt="iOS" /> */}
-                        Get on iOS
-                    </a>
-                    <a href="#" className="home-button android">
-                        {/* <img src={androidIcon} alt="Android" /> */}
-                        Get on Android
-                    </a>
+            <div className='bg-primary land-container'>
+
+            <div className="container py-lg-6 text-center d-flex align-items-center">
+                <div className="row align-items-lg-center ">
+                    <div className='col-lg-4 offset-lg-1 order-lg-2 p-5 p-lg-0'>
+                    <img src={homeImg} alt="Logo" />
+                    </div>
+                    <div className='col-lg-6 order-lg-1 text-lg-left'>
+                    <h1 className="home-title">
+                        Welcome to Verified by VDV: Your Trusted KYC and KYB Solution for the Diamond Industry
+                    </h1>
+                    <p className="home-description">
+                        In the intricate world of diamond trading, where trust and transparency are paramount, 
+                        Verified by VDV stands as your reliable partner, combining cutting-edge technology with 
+                        a human touch to ensure compliance with international regulators.
+                    </p>
+                    </div>
                 </div>
-                <a href="/features" className="home-features-link">view features</a>
+            </div>
+            </div>
+            <div className="py-4 py-lg-7">
+                <div className="home-content text-center">
+                    <h2 className="home-title">What makes Verified indispensable to your business?</h2>
+                    {/* Icon and Info Rows */}
+                    <div className="row justify-content-center">
+                        {/* Icon 1 */}
+                        <div className="col-6 col-md-3 mb-3">
+                            <i className="bi bi-shield-lock large-icon text-primary"></i>
+                            <h4 className="mt-2 font-weight-light text-primary">Comprehensive Compliance</h4>
+                            <p className='text-primary'>Stay ahead of regulatory changes and ensure compliance with global AML and anti-terrorist financing regulations.</p>
+                        </div>
+                        {/* Icon 2 */}
+                        <div className="col-6 col-md-3 mb-3">
+                            <i className="bi bi-gem large-icon text-primary"></i>
+                            <h4 className="mt-2 font-weight-light text-primary">Tailored for the Diamond Industry</h4>
+                            <p className='text-primary'>Our KYC and KYB checks are specifically crafted to address the intricacies of the diamond industry.</p>
+                        </div>
+                        {/* Icon 3 */}
+                        <div className="col-6 col-md-3 mb-3">
+                            <i className="bi bi-people large-icon text-primary"></i>
+                            <h4 className="mt-2 font-weight-light text-primary">Human Touch in a Digital World</h4>
+                            <p className='text-primary'>Our expert team is ready to assist you throughout the onboarding process and beyond.</p>
+                        </div>
+                        {/* Icon 4 */}
+                        <div className="col-6 col-md-3 mb-3">
+                            <i className="bi bi-speedometer2 large-icon text-primary"></i>
+                            <h4 className="mt-2 font-weight-light text-primary">Efficiency and Accuracy</h4>
+                            <p className='text-primary'>The automated verification checks and simplified data capturing streamline the KYC and KYB process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="land-container bg-secondary">
+                <div className="home-content">
+                    <h2 className="home-title">Join Verified by VDV Today</h2>
+                    <p className="home-description">
+                        In the ever-evolving landscape of the diamond industry, trust and compliance are the cornerstones of success.
+                        Choose Verified by VDV as your KYC and KYB solution, and experience the confidence that comes with a partner
+                        dedicated to the security and prosperity of your business. Embrace the future of the diamond business with 
+                        Verified by VDV — where technology meets trust.
+                    </p>
+                    <a href="/signup" className="join-link">Secure Your Diamond Business Future</a>
+                </div>
             </div>
         </div>
-    <div className="py-4 py-lg-7">
-    <div className="home-content text-center">
-        <h2 className="home-title">What makes Verified indispensable to your business?</h2>
-        <div className="row justify-content-center">
-            <div className="col-6 col-md-3">
-                <i className="bi bi-alarm large-icon"></i>
-                <h4 className="mt-2 font-weight-light">Alarm Info</h4>
-            </div>
-            <div className="col-6 col-md-3">
-                <i className="bi bi-bell large-icon"></i>
-                <h4 className="mt-2 font-weight-light">Alarm Info</h4>
-            </div>
-            <div className="col-6 col-md-3">
-                <i className="bi bi-calendar large-icon"></i>
-                <h4 className="mt-2 font-weight-light">Alarm Info</h4>
-            </div>
-            <div className="col-6 col-md-3">
-                <i className="bi bi-camera large-icon"></i>
-                <h4 className="mt-2 font-weight-light">Alarm Info</h4>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    <div className="land-container bg-green">
-        <div className="text-center">
-            <h2 className="home-title">What makes Verified indispensable to your business?</h2>
-    </div>
-
-    </div>
-</div>
     );
 };
 

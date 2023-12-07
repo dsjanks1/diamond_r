@@ -5,15 +5,13 @@
     padding-bottom: 50px;
     min-height: 100vh; /* To ensure the container takes full viewport height */
 }
-.two-container {
-    color: white;
-    padding-top: 160px; /* Adjust to the height of your navbar */
-    padding-bottom: 50px;
-    min-height: 100vh; /* To ensure the container takes full viewport height */
+
+.bg-primary {
+    background-color: #005f99; /* Primary blue color */
 }
-.third-background {
-    padding-top: 160px; /* Adjust to the height of your navbar */
-    padding-bottom: 50px;
+
+.bg-secondary {
+    background-color: #4caf50; /* Secondary green color */
 }
 
 .home-content {
@@ -23,10 +21,14 @@
     text-align: center;
 }
 
-
 .home-title {
     font-size: 2.5em; /* Adjust to match your design */
     margin-bottom: 20px;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .home-buttons {
@@ -63,6 +65,41 @@
     text-decoration: underline;
 }
 
+.join-link {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.join-link:hover {
+    background-color: #0033a0;
+}
+
+.large-icon {
+    font-size: 3rem; /* Larger icons */
+    color: white;
+}
+
+/* Styling for feature sections under each icon */
+.row .col-md-3 {
+    margin-bottom: 1rem;
+}
+
+.row .col-md-3 h4 {
+    color: white;
+    font-size: 1.2rem; /* Title size for features */
+}
+
+.row .col-md-3 p {
+    color: white;
+    font-size: 1rem; /* Text size for features */
+    margin-top: 0.5rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .home-content {
@@ -82,7 +119,19 @@
         margin: 10px 0;
     }
 
-    .home-button img {
-        margin: 0 auto; /* Center icon in mobile view */
+    .large-icon {
+        font-size: 2rem; /* Smaller icons on mobile */
+    }
+
+    .row .col-md-3 {
+        margin-bottom: 1.5rem;
+    }
+
+    .row .col-md-3 h4 {
+        font-size: 1rem; /* Smaller title size on mobile */
+    }
+
+    .row .col-md-3 p {
+        font-size: 0.9rem; /* Smaller text size on mobile */
     }
 }

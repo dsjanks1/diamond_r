@@ -1,17 +1,19 @@
 /* src/components/Home.css */
 .land-container {
-    background-color: #005f99;
     color: white;
     padding-top: 160px; /* Adjust to the height of your navbar */
     padding-bottom: 50px;
     min-height: 100vh; /* To ensure the container takes full viewport height */
 }
 .two-container {
-    background-color: #1f9900;
     color: white;
     padding-top: 160px; /* Adjust to the height of your navbar */
     padding-bottom: 50px;
     min-height: 100vh; /* To ensure the container takes full viewport height */
+}
+.third-background {
+    padding-top: 160px; /* Adjust to the height of your navbar */
+    padding-bottom: 50px;
 }
 
 .home-content {

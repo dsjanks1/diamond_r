@@ -6,9 +6,9 @@ import androidIcon from './android-icon.svg'; // Add your Android icon asset pat
 const Home: React.FC = () => {
     return (
         <div>
-        <div className="land-container">
+        <div className="land-container bg-primary">
             <div className="home-content">
-                <h1 className="home-title">Great tool that helps you verify those who interact with you</h1>
+                <h1 className="home-title">A KYC (Know Your Client) and KYB (Know Your Business) software solution driven by professionals.</h1>
                 <div className="home-buttons">
                     <a href="#" className="home-button ios">
                         {/* <img src={iosIcon} alt="iOS" /> */}
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
                 <a href="/features" className="home-features-link">view features</a>
             </div>
         </div>
-        <div className="py-4 py-lg-7">
+    <div className="py-4 py-lg-7">
     <div className="home-content text-center">
         <h2 className="home-title">What makes Verified indispensable to your business?</h2>
         <div className="row justify-content-center">
@@ -44,9 +44,15 @@ const Home: React.FC = () => {
             </div>
         </div>
     </div>
-</div>
 
-        </div>
+    </div>
+    <div className="land-container bg-green">
+        <div className="text-center">
+            <h2 className="home-title">What makes Verified indispensable to your business?</h2>
+    </div>
+
+    </div>
+</div>
     );
 };
 

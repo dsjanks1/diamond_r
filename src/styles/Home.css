@@ -5,6 +5,11 @@
     padding-bottom: 50px;
     min-height: 100vh; /* To ensure the container takes full viewport height */
 }
+.join-container {
+    color: white;
+    padding-top: 160px; /* Adjust to the height of your navbar */
+    padding-bottom: 50px;
+}
 
 .bg-primary {
     background-color: #005f99; /* Primary blue color */

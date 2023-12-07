@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/Home.css';
 import homeImg from '../assets/homeImg.png';
-
+import ScrollAnimated from '../components/ScrollAnimated';
 const Home: React.FC = () => {
     return (
         <div>
-            <div className='bg-primary land-container'>
+        <div className='bg-primary land-container'>
+        <ScrollAnimated>
 
             <div className="container py-lg-6 text-center d-flex align-items-center">
                 <div className="row align-items-lg-center ">
@@ -24,6 +25,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </div>
+            </ScrollAnimated>
             </div>
             <div className="py-4 py-lg-7">
                 <div className="home-content text-center">
@@ -57,7 +59,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="land-container bg-secondary">
+            <div className="join-container bg-secondary">
                 <div className="home-content">
                     <h2 className="home-title">Join Verified by VDV Today</h2>
                     <p className="home-description">

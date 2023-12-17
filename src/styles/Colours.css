@@ -1,10 +1,16 @@
 /* Background Colors */
 .bg-primary {
-    background-color: #005f99;
+    background-color: #08BF99;
 }
 
+.bg-grey-light {
+    background-color: #CED2CC;
+}
+.bg-grey {
+    background-color: #B5B5B1;
+}
 .bg-secondary {
-    background-color: #6c757d;
+    background-color: #9A9996;
 }
 
 .bg-success {
@@ -40,8 +46,11 @@
 
 }
 /* Font Colors */
+.text-green {
+    color: #08BF99 !important;
+}
 .text-primary {
-    color: #007bff;
+    color: #08BF99 !important;
 }
 
 .text-secondary {

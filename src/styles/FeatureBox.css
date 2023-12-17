@@ -1,0 +1,44 @@
+/* FeatureBoxes.css */
+
+.feature-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.discover-more {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-down-background{
+    background: #001b2c;
+    content: '';
+    /* position: absolute; */
+    top: -1px;
+    height: 5.5%;
+    width: 100%;
+}
+
+/* Ensure that the total column count does not exceed 12 for the row */
+@media (min-width: 992px) {
+    .offset-lg-1 {
+        margin-right: 8.333333%; /* Equal to one column in a 12-column grid */
+    }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 991px) {
+    .feature-box {
+        margin-bottom: 20px;
+    }
+    .offset-lg-1 {
+        margin-right: 0;
+    }
+}

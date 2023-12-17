@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css'; // Assuming your CSS file is in the same directory
-import logoImage from '../assets/logo.png'; // Update the path to where your actual logo is
+import verifiedVDVLogo from '../assets/verifiedVDVFINAL.png'; // Update the path to where your actual logo is
 
 const NavBar: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -24,7 +24,7 @@ const NavBar: React.FC = () => {
     return (
         <nav className={`navbar-container ${scrolled ? 'scrolled' : ''}`}>
             <div className="navbar-logo">
-                <img src={logoImage} alt="Logo" />
+                <img src={verifiedVDVLogo} alt="Logo" className="img-fluid logo-verified-vdv" />
             </div>
             <div className="navbar-links">
                 <Link to="/">Home</Link>

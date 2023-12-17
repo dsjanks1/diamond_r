@@ -11,14 +11,6 @@
     padding-bottom: 50px;
 }
 
-.bg-primary {
-    background-color: #005f99; /* Primary blue color */
-}
-
-.bg-secondary {
-    background-color: #4caf50; /* Secondary green color */
-}
-
 .home-content {
     max-width: 960px; /* Or the max-width you desire */
     margin: auto;
@@ -71,7 +63,6 @@
 }
 
 .join-link {
-    background-color: #0044cc;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -122,6 +113,15 @@
 .kyc-content, .kyb-content {
     animation: fadeIn 0.5s ease-in-out;
 }
+
+.horizontal-line {
+    width: 100%; /* Line spans the full width of the page */
+    height: 2px; /* Thickness of the line */
+    background-color: #9A9996; /* Color of the line */
+    margin-top: 20px; /* Space above the line */
+    margin-bottom: 20px; /* Space below the line */
+  }
+  
 
 @keyframes fadeIn {
     from { opacity: 0; }

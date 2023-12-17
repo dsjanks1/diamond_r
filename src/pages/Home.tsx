@@ -4,6 +4,7 @@ import homeImg from '../assets/ManEnvelope.png';
 import ScrollAnimated from '../components/ScrollAnimated';
 import FeatureBox from '../components/FeatureBox';
 import DualFeatureBox from '../components/DualFeatureBox';
+import FeatureBoxFour from '../components/FeatureBoxFour'
 const Home: React.FC = () => {
     const [activeTab, setActiveTab] = useState('kyc');
 
@@ -33,6 +34,7 @@ const Home: React.FC = () => {
             </div>
             </ScrollAnimated>
             </div>
+            {/* <FeatureBoxFour></FeatureBoxFour> */}
             <div className="py-4 py-lg-7 bg-secondary">
                 <div className="home-content text-center">
                     <h2 className="home-title text-white">What makes Verified indispensable to your business?</h2>

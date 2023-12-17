@@ -1,0 +1,14 @@
+/* FeatureBox.css */
+
+.feature-box {
+    margin-bottom: 2rem; /* Space between the feature boxes */
+    text-align: center; /* Center the content */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 1rem; /* Space below each image */
+}
+
+/* You can add more custom styles here if needed */

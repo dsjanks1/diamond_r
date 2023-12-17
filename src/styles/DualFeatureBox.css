@@ -31,8 +31,13 @@
     .feature-row img {
         margin-bottom: 1rem; /* Space between image and text on small screens */
     }
-    
-    .order-md-1 {
-        order: -1; /* Ensure text appears before image on mobile for second row */
+
+    /* Adjust the order of elements for small screens */
+    .order-sm-1 {
+        order: 1;
+    }
+
+    .order-sm-2 {
+        order: 2;
     }
 }

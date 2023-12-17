@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/diamond_r/static/css/main.19fbc947.css",
-    "main.js": "/diamond_r/static/js/main.377332ac.js",
+    "main.css": "/diamond_r/static/css/main.4de9bba3.css",
+    "main.js": "/diamond_r/static/js/main.9d0cbcc0.js",
     "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
     "static/media/diamond-earing-dark.jpg": "/diamond_r/static/media/diamond-earing-dark.cf465db8e40ab7005210.jpg",
     "static/media/pexels-rūdolfs-klintsons-7127245.jpg": "/diamond_r/static/media/pexels-rūdolfs-klintsons-7127245.b4487d09ad3464fe42d8.jpg",
@@ -11,12 +11,12 @@
     "static/media/ManEnvelope.png": "/diamond_r/static/media/ManEnvelope.66b3ad6f2d3467ea2712.png",
     "static/media/verifiedVDVFINAL.png": "/diamond_r/static/media/verifiedVDVFINAL.19f06eb73cea4e415cae.png",
     "index.html": "/diamond_r/index.html",
-    "main.19fbc947.css.map": "/diamond_r/static/css/main.19fbc947.css.map",
-    "main.377332ac.js.map": "/diamond_r/static/js/main.377332ac.js.map",
+    "main.4de9bba3.css.map": "/diamond_r/static/css/main.4de9bba3.css.map",
+    "main.9d0cbcc0.js.map": "/diamond_r/static/js/main.9d0cbcc0.js.map",
     "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19fbc947.css",
-    "static/js/main.377332ac.js"
+    "static/css/main.4de9bba3.css",
+    "static/js/main.9d0cbcc0.js"
   ]
 }

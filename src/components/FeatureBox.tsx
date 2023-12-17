@@ -9,15 +9,15 @@ const FeatureBox: React.FC = () => {
         <div className="row justify-content-center">
             {/* The use of offset-md here assumes Bootstrap 4+ */}
             <div className="col-lg-5 col-md-5 feature-box">
-                <img src={imageOne} alt="From Earth to Heirloom" className="img-responsive"/>
-                <h3>From Earth to Heirloom</h3>
+                <img src={imageOne} alt="KYC – Know Your Client" className="img-responsive"/>
+                <h3>KYC – Know Your Client</h3>
                 <p>Every De Beers Group diamond goes on an incredible journey</p>
                 <a href="#" className="discover-more">Discover More</a>
             </div>
             
             <div className="col-lg-5 col-md-5 feature-box">
-                <img src={imageOne} alt="Nature's Miracles" className="img-responsive"/>
-                <h3>Nature's Miracles</h3>
+                <img src={imageOne} alt="KYB – Know Your Business" className="img-responsive"/>
+                <h3>KYB – Know Your Businesss</h3>
                 <p>Billions of years old, diamonds are one of nature's rarest and most beautiful gifts</p>
                 <a href="#" className="discover-more">Discover More</a>
             </div>

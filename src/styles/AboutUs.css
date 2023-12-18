@@ -6,8 +6,8 @@
 
 .about-us-hero {
     /* background: #005f99; Replace with a desired background */
-    background-image: url('../assets/diamond-earing-dark.jpg');
-    /* background-image: url('../assets/diamond-table-light.jpg'); */
+    /* background-image: url('../assets/diamond-earing-dark.jpg'); */
+    background-image: url('../assets/diamond-table-light.jpg');
 
     min-height: 100vh;
     flex-direction: column;
@@ -80,8 +80,13 @@
     left: 0;
     right: 0;
     bottom: 50%; /* Only cover the top half */
-    background: #343a40; /* Dark navy color */
+    background: #fff; /* Dark navy color */
     z-index: -1; /* Ensure it's behind the content */
+  }
+
+  .legacy-container{
+    margin-top:100px;
+    padding-bottom: 100px;
   }
   
   /* Additional styles for responsiveness and positioning */

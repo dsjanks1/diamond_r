@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css'; // Assuming your CSS file is in the same directory
-import verifiedVDVLogo from '../assets/verifiedVDVFINAL.png'; // Update the path to where your actual logo is
+import verifiedVDVLogo from '../assets/VerifiedLOGO.png'; // Update the path to where your actual logo is
 
 const NavBar: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);

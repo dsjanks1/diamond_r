@@ -41,24 +41,14 @@ const AboutUs: React.FC = () => {
 
             {/* Expertise Section with Interactive Cards */}
             <section className="about-us-expertise py-5">
-                <div className="container">
-                    <h2>Unparalleled Expertise</h2>
-                    <div className="card-deck">
-                        <div className="card">
-                            <div className="card-body">
-                                <h3>Finance</h3>
-                                <p>At verified by VDV, our team brings together a wealth of experience in finance, accounting, legal and technology. Our professionals are not just experts in their respective fields but also possess a keen understanding of the nuances of the diamond industry. This unique blend of skills positions us as a versatile and reliable partner, capable of navigating the complex intersection of regulation and the diamond industry.</p>
-                            </div>
-                        </div>
-                        {/* <div className="card">
-                            <div className="card-body">
-                                <h3>Legal</h3>
-                                <p>Legal professionals...</p>
-                            </div>
-                        </div>
-                        Add more cards for accounting, technology, etc. */}
-                    </div>
+            <div className="text-white legacy-container bg-dark">
+                <div className="home-content">
+                    <h3 className="home-light">Unparalleled Expertise</h3>
+                    <p className="home-description">
+                    At verified by VDV, our team brings together a wealth of experience in finance, accounting, legal and technology. Our professionals are not just experts in their respective fields but also possess a keen understanding of the nuances of the diamond industry. This unique blend of skills positions us as a versatile and reliable partner, capable of navigating the complex intersection of regulation and the diamond industry.
+                    </p>
                 </div>
+            </div>
             </section>
 
             {/* More sections can be added here */}

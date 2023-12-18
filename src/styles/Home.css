@@ -1,10 +1,31 @@
 /* src/components/Home.css */
 .land-container {
     color: white;
-    padding-top: 160px; /* Adjust to the height of your navbar */
     padding-bottom: 50px;
     min-height: 100vh; /* To ensure the container takes full viewport height */
+    @media (min-width: 767px) { /* This targets devices with a width of 992px and up, which typically includes tablets in landscape mode and desktop displays */
+        margin-top: 160px;
+    }
 }
+
+
+.home-welcome-container{
+    /* padding-top: 140px; */
+    border: #08BF99;
+    border-color: #08BF99;
+    border-width: 1px;
+}
+  
+  .home-welcome-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50%; /* Only cover the top half */
+    z-index: -1; /* Ensure it's behind the content */
+   
+  }
 .join-container {
     color: white;
     padding-top: 160px; /* Adjust to the height of your navbar */
@@ -19,6 +40,10 @@
 }
 
 .home-title {
+    font-size: 3.5em; /* Adjust to match your design */
+    margin-bottom: 20px;
+}
+.home-title-secondary {
     font-size: 2.5em; /* Adjust to match your design */
     margin-bottom: 20px;
 }
@@ -121,13 +146,21 @@
     margin-top: 20px; /* Space above the line */
     margin-bottom: 20px; /* Space below the line */
   }
+
+  .horizontal-line-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+  }
   
 .horizontal-line-2{
     width: 100%;
-    border: 2px solid #9A9996; /* Line style */
+    border: 1px solid #9A9996; /* Line style */
+    border-radius: 100px;
     margin-bottom: 1rem;
     margin-top: 20px; /* Space above the line */
     margin-bottom: 20px; /* Space below the line */
+
 }
 
 @keyframes fadeIn {
@@ -136,11 +169,16 @@
 }
 /* Responsive adjustments */
 @media (max-width: 768px) {
+
+
     .home-content {
         padding: 1em;
     }
 
     .home-title {
+        font-size: 2em;
+    }
+    .home-title-secondary {
         font-size: 1.5em;
     }
 

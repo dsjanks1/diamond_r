@@ -16,3 +16,7 @@ code {
   font-size: 0.9rem; /* Set the size of the text under the icon */
   color: #000; /* Set the color of the text, if needed */
 }
+
+.mb-50{
+  margin-bottom: 50px;
+}

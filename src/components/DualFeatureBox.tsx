@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/DualFeatureBox.css'; // Make sure this file exists and contains the necessary styling
-import leftAlignedImage from '../assets/diamondTerq.jpg'; // Update with the path to your left-aligned image
-import rightAlignedImage from '../assets/diamond-earing-dark.jpg'; 
+import leftAlignedImage from '../assets/KYC500.png'; // Update with the path to your left-aligned image
+import rightAlignedImage from '../assets/LadderIcon.png'; 
 const DualFeatureBox: React.FC = () => {
     return (
         <div className="container my-5">

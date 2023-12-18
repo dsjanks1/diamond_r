@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diamond_r/static/css/main.f57f8399.css",
-    "main.js": "/diamond_r/static/js/main.e4ad9d70.js",
+    "main.js": "/diamond_r/static/js/main.64e074f1.js",
     "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
     "static/media/diamond-table-light.jpg": "/diamond_r/static/media/diamond-table-light.be1d245fe0ced9c4bdfa.jpg",
     "static/media/diamondTerq.jpg": "/diamond_r/static/media/diamondTerq.7d5cb3f1fbdeb38740b3.jpg",
@@ -13,11 +13,11 @@
     "static/media/VerifiedLOGO.png": "/diamond_r/static/media/VerifiedLOGO.fb8b4b3798ce8aef03a3.png",
     "index.html": "/diamond_r/index.html",
     "main.f57f8399.css.map": "/diamond_r/static/css/main.f57f8399.css.map",
-    "main.e4ad9d70.js.map": "/diamond_r/static/js/main.e4ad9d70.js.map",
+    "main.64e074f1.js.map": "/diamond_r/static/js/main.64e074f1.js.map",
     "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f57f8399.css",
-    "static/js/main.e4ad9d70.js"
+    "static/js/main.64e074f1.js"
   ]
 }

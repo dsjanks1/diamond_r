@@ -9,18 +9,24 @@ const FeatureBox: React.FC = () => {
         <div className="row justify-content-center">
             {/* The use of offset-md here assumes Bootstrap 4+ */}
             <div className="col-lg-5 col-md-5 feature-box">
-                <img src={imageOne} alt="KYC – Know Your Client" className="img-responsive"/>
-                <h3>KYC – Know Your Client</h3>
-                <p>Every De Beers Group diamond goes on an incredible journey</p>
-                <a href="#" className="discover-more">Discover More</a>
+                <img src={imageOne} alt="Our Mission" className="img-responsive"/>
+                <h3 className='text-dark'>Our Mission</h3>
+                <p className='text-grey-light'>Making Compliance Easy, Ensuring Security
+                    Our mission is clear: to make compliance easy for the diamond industry. We do this by combining our extensive knowledge of regulatory frameworks with cutting-edge technology. Our aim is to provide a secure foundation for trading, allowing our clients to operate confidently in a world that has growing demands for the utmost in accountability and transparency.</p>
+                {/* <a href="#" className="discover-more">Discover More</a> */}
+
+                {/* <h2>Our Mission</h2>
+                    <p>Making Compliance Easy, Ensuring Security
+                    Our mission is clear: to make compliance easy for the diamond industry. We do this by combining our extensive knowledge of regulatory frameworks with cutting-edge technology. Our aim is to provide a secure foundation for trading, allowing our clients to operate confidently in a world that has growing demands for the utmost in accountability and transparency.
+                    </p> */}
             </div>
             
             <div className="col-lg-5 col-md-5 feature-box">
                 <img src={imageOne} alt="KYB – Know Your Business" className="img-responsive"/>
-                <h3>KYB – Know Your Businesss</h3>
-                <p>Billions of years old, diamonds are one of nature's rarest and most beautiful gifts</p>
-                <a href="#" className="discover-more">Discover More</a>
-            </div>
+                <h3 className='text-dark'>Our Legacy</h3>
+                <p className='text-grey-light'>Founded on a legacy of experience spanning three decades, verified by VDV was built to be at the forefront of compliance for the diamond industry. Our journey is rooted in a deep understanding of the industry's intricacies, evolving alongside the dynamic landscape to become a trusted partner for diamond businesses seeking excellence in compliance.</p>
+                
+                </div>
         </div>
     </div>
     );

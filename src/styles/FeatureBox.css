@@ -1,7 +1,7 @@
 /* FeatureBoxes.css */
 
 .feature-box {
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 30px;
 }
 
@@ -11,14 +11,9 @@
     margin-bottom: 20px;
 }
 
-.discover-more {
-    color: #1e90ff;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 .top-down-background{
-    background: #001b2c;
+    background: #000;
     content: '';
     /* position: absolute; */
     top: -1px;

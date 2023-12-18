@@ -5,25 +5,39 @@
 }
 
 .about-us-hero {
-    background: #005f99; /* Replace with a desired background */
+    /* background: #005f99; Replace with a desired background */
+    background-image: url('../assets/diamond-earing-dark.jpg');
+    /* background-image: url('../assets/diamond-table-light.jpg'); */
+
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .about-us-mission {
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     color: #fff;
+}
+
+.multi-column-signpost {
+    background: #001b2c;
+    content: '';
+    position: absolute;
+    top: -1px;
+    height: 55.5%;
+    width: 100%;
 }
 
 .parallax-background {
     /* Assume you have an appropriate image in your assets */
-    background-image: url('../assets/pexels-rūdolfs-klintsons-7127245.jpg');
+    /* background-image: url('../assets/pexels-rūdolfs-klintsons-7127245.jpg'); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +66,73 @@
     margin-bottom: 2rem;
 }
 
+
+.mission-container {
+    position: relative;
+    margin-top: 100px;
+    /* other styles */
+  }
+  
+  .mission-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50%; /* Only cover the top half */
+    background: #343a40; /* Dark navy color */
+    z-index: -1; /* Ensure it's behind the content */
+  }
+  
+  /* Additional styles for responsiveness and positioning */
+  @media (max-width: 768px) {
+    .mission-container::before {
+      bottom: 60%; /* You might want to cover less than half on mobile for better aesthetics */
+    }
+  }
+
 /* Ensure your media queries are set up for responsive adjustments */
 @media (max-width: 768px) {
     /* Adjust font sizes and spacing for mobile here */
 }
+  
+  .about-us-text-container h1 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+  }
+  
+  .about-us-text-container p {
+    font-size: 1rem; /* Adjust the size as needed */
+    line-height: 1.5; /* For better readability */
+  }
+  
+
+.about-us-text-container {
+    /* Other styles... */
+    /* Apply the transform only on desktop views */
+    @media (min-width: 992px) { /* This targets devices with a width of 992px and up, which typically includes tablets in landscape mode and desktop displays */
+        transform: translateY(-90px);
+    }
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-us-hero {
+        padding: 20px 10px; /* Adjusted padding */
+        background-attachment: scroll; /* Disable fixed background for better performance and compatibility */
+        background-position: top center; /* Optional: Adjust this if you want to reposition the image */
+    }
+    
+    .about-us-text-container {
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the text container */
+        border-radius: 8px; /* Optional: Adds rounded corners to the text container */
+        padding: 15px; /* Padding inside the text container */
+    }
+
+    .about-us-text-container h1 {
+        font-size: 1.5rem; /* Smaller font size for h1 on mobile */
+    }
+
+    .about-us-text-container p {
+        font-size: 0.9rem; /* Smaller font size for paragraph on mobile */
+    }
+}
+  

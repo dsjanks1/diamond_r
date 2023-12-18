@@ -9,6 +9,11 @@
 }
 
 
+.horizontal-line-container{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
 .home-welcome-container{
     /* padding-top: 140px; */
     border: #08BF99;
@@ -28,7 +33,7 @@
   }
 .join-container {
     color: white;
-    padding-top: 160px; /* Adjust to the height of your navbar */
+    padding-top: 50px; /* Adjust to the height of your navbar */
     padding-bottom: 50px;
 }
 
@@ -147,11 +152,7 @@
     margin-bottom: 20px; /* Space below the line */
   }
 
-  .horizontal-line-container{
-    margin-left: 200px;
-    margin-right: 200px;
-    
-  }
+
   
 .horizontal-line-2{
     width: 100%;
@@ -169,8 +170,10 @@
 }
 /* Responsive adjustments */
 @media (max-width: 768px) {
-
-
+    .horizontal-line-container {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     .home-content {
         padding: 1em;
     }

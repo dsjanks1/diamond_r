@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/diamond_r/static/css/main.4de9bba3.css",
-    "main.js": "/diamond_r/static/js/main.9d0cbcc0.js",
+    "main.css": "/diamond_r/static/css/main.4893e092.css",
+    "main.js": "/diamond_r/static/js/main.98fad957.js",
     "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
-    "static/media/diamond-earing-dark.jpg": "/diamond_r/static/media/diamond-earing-dark.cf465db8e40ab7005210.jpg",
-    "static/media/pexels-rūdolfs-klintsons-7127245.jpg": "/diamond_r/static/media/pexels-rūdolfs-klintsons-7127245.b4487d09ad3464fe42d8.jpg",
+    "static/media/diamond-table-light.jpg": "/diamond_r/static/media/diamond-table-light.be1d245fe0ced9c4bdfa.jpg",
     "static/media/diamondTerq.jpg": "/diamond_r/static/media/diamondTerq.7d5cb3f1fbdeb38740b3.jpg",
     "static/media/bootstrap-icons.woff?": "/diamond_r/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/bootstrap-icons.woff2?": "/diamond_r/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
-    "static/media/ManEnvelope.png": "/diamond_r/static/media/ManEnvelope.66b3ad6f2d3467ea2712.png",
-    "static/media/verifiedVDVFINAL.png": "/diamond_r/static/media/verifiedVDVFINAL.19f06eb73cea4e415cae.png",
+    "static/media/LadderIcon.png": "/diamond_r/static/media/LadderIcon.e096c07e315c58b6095b.png",
+    "static/media/HomeIconTick.png": "/diamond_r/static/media/HomeIconTick.4f33d6366137037958c9.png",
+    "static/media/KYC500.png": "/diamond_r/static/media/KYC500.dbaf5b54f4b346e4a90d.png",
+    "static/media/VerifiedLOGO.png": "/diamond_r/static/media/VerifiedLOGO.fb8b4b3798ce8aef03a3.png",
     "index.html": "/diamond_r/index.html",
-    "main.4de9bba3.css.map": "/diamond_r/static/css/main.4de9bba3.css.map",
-    "main.9d0cbcc0.js.map": "/diamond_r/static/js/main.9d0cbcc0.js.map",
+    "main.4893e092.css.map": "/diamond_r/static/css/main.4893e092.css.map",
+    "main.98fad957.js.map": "/diamond_r/static/js/main.98fad957.js.map",
     "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de9bba3.css",
-    "static/js/main.9d0cbcc0.js"
+    "static/css/main.4893e092.css",
+    "static/js/main.98fad957.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/diamond_r/static/css/main.4893e092.css",
-    "main.js": "/diamond_r/static/js/main.98fad957.js",
+    "main.css": "/diamond_r/static/css/main.f57f8399.css",
+    "main.js": "/diamond_r/static/js/main.e4ad9d70.js",
     "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
     "static/media/diamond-table-light.jpg": "/diamond_r/static/media/diamond-table-light.be1d245fe0ced9c4bdfa.jpg",
     "static/media/diamondTerq.jpg": "/diamond_r/static/media/diamondTerq.7d5cb3f1fbdeb38740b3.jpg",
@@ -12,12 +12,12 @@
     "static/media/KYC500.png": "/diamond_r/static/media/KYC500.dbaf5b54f4b346e4a90d.png",
     "static/media/VerifiedLOGO.png": "/diamond_r/static/media/VerifiedLOGO.fb8b4b3798ce8aef03a3.png",
     "index.html": "/diamond_r/index.html",
-    "main.4893e092.css.map": "/diamond_r/static/css/main.4893e092.css.map",
-    "main.98fad957.js.map": "/diamond_r/static/js/main.98fad957.js.map",
+    "main.f57f8399.css.map": "/diamond_r/static/css/main.f57f8399.css.map",
+    "main.e4ad9d70.js.map": "/diamond_r/static/js/main.e4ad9d70.js.map",
     "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4893e092.css",
-    "static/js/main.98fad957.js"
+    "static/css/main.f57f8399.css",
+    "static/js/main.e4ad9d70.js"
   ]
 }

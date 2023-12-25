@@ -7,8 +7,7 @@
 .about-us-hero {
     /* background: #005f99; Replace with a desired background */
     /* background-image: url('../assets/diamond-earing-dark.jpg'); */
-    background-image: url('../assets/diamond-table-light.jpg');
-
+    background-image: url('../assets/diamondLeave.jpg');
     min-height: 100vh;
     flex-direction: column;
     padding-left: 200px;
@@ -35,9 +34,15 @@
     width: 100%;
 }
 
+.unparalleled-heading{
+    margin-top: 20px;
+
+}
+.unparalleled-description{
+    margin-top:20px
+}
 .parallax-background {
     /* Assume you have an appropriate image in your assets */
-    /* background-image: url('../assets/pexels-rūdolfs-klintsons-7127245.jpg'); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,8 +90,14 @@
   }
 
   .legacy-container{
-    margin-top:100px;
-    padding-bottom: 100px;
+    margin-top:10px;
+    background-image: url('../assets/diamondBlackTong.jpg');
+    background-position: 500px calc(60%); 
+    background-color: #000;
+    background-size: cover; /* or you could use contain, depending on your needs */
+    background-repeat: no-repeat;
+    height: 400px; /* Set the desired height */
+    width: 100%; /* Set the desired width */
   }
   
   /* Additional styles for responsiveness and positioning */
@@ -139,5 +150,11 @@
     .about-us-text-container p {
         font-size: 0.9rem; /* Smaller font size for paragraph on mobile */
     }
+
+    .legacy-container{
+        max-height: 320px;
+
+    }
 }
+
   

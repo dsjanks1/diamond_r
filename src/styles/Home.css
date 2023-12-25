@@ -144,14 +144,6 @@
     animation: fadeIn 0.5s ease-in-out;
 }
 
-.horizontal-line {
-    width: 100%; /* Line spans the full width of the page */
-    height: 2px; /* Thickness of the line */
-    background-color: #9A9996; /* Color of the line */
-    margin-top: 20px; /* Space above the line */
-    margin-bottom: 20px; /* Space below the line */
-  }
-
 
   
 .horizontal-line-2{

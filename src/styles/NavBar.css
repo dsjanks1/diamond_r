@@ -3,15 +3,13 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff00;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     transition: background-color 0.3s;
-    border-bottom:2px solid #58616a;
-
 
 }
 
@@ -20,11 +18,13 @@
     height: auto;   /* Maintain the aspect ratio */
     max-width: 200px; /* Maximum width of the logo */
     object-fit: contain;
-
+    flex: 0 0 auto;
 }
 
 .navbar-container.scrolled {
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust transparency as needed */
+    background-color: rgba(255, 255, 255, 0.923); /* Adjust transparency as needed */
+    /* border-bottom:2px solid #58616a; */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar-logo img {
@@ -35,16 +35,23 @@
 
 .navbar-links {
     display: flex;
+    justify-content: center;
+    flex: 1;
     align-items: center;
     gap: 20px; /* Adjust the space between links as needed */
 }
 
 .navbar-links a {
     text-decoration: none;
-    color: #333; /* Adjust color as needed */
+    color: #ffffff; /* Adjust color as needed */
     font-weight: bold;
     transition: color 0.3s;
 }
+
+.navbar-container.scrolled .navbar-links a {
+    color: green; /* Change to the color you want when scrolled */
+}
+
 
 .navbar-links a:hover {
     color: #000; /* Adjust hover color as needed */
@@ -62,5 +69,18 @@
 
     .navbar-links a {
         font-size: 0.8em; /* Smaller text on mobile */
+    }
+    .navbar-container {
+        padding: 10px; /* Adjust padding for all small devices */
+    }
+}
+
+/* You can add specific styles for iPhone 13 Pro Max using a media query and the device's height */
+/* iPhone 13 Pro Max has a height of 926px in portrait mode */
+@media only screen 
+  and (max-device-height: 926px) 
+  and (orientation: portrait) {
+    .navbar-container {
+        padding: 10px; /* Even smaller padding for iPhone 13 Pro Max */
     }
 }

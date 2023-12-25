@@ -14,7 +14,6 @@ const Home: React.FC = () => {
     return (
         <div>
         <div className='text-secondary land-container'>
-        <ScrollAnimated>
             <div className="container py-lg-6 text-center d-flex align-items-center">
                 <div className="align-items-lg-center home-welcome-container">
                     <div className='offset-lg-1  p-5 p-lg-0'>
@@ -37,7 +36,6 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </div>
-            </ScrollAnimated>
             </div>
             {/* <FeatureBoxFour></FeatureBoxFour> */}
             <div className="py-4 py-lg-7 bg-secondary">

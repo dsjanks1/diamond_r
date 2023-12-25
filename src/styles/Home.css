@@ -4,7 +4,7 @@
     padding-bottom: 50px;
     min-height: 100vh; /* To ensure the container takes full viewport height */
     @media (min-width: 767px) { /* This targets devices with a width of 992px and up, which typically includes tablets in landscape mode and desktop displays */
-        margin-top: 160px;
+        margin-top: 120px;
     }
 }
 

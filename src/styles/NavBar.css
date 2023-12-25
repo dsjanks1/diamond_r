@@ -13,6 +13,7 @@
 
 }
 
+
 .logo-verified-vdv{
     width: 100%;    /* Scale the logo width to fit its container */
     height: auto;   /* Maintain the aspect ratio */
@@ -43,18 +44,13 @@
 
 .navbar-links a {
     text-decoration: none;
-    color: #ffffff; /* Adjust color as needed */
+    color: #000; /* Adjust color as needed */
     font-weight: bold;
     transition: color 0.3s;
 }
 
-.navbar-container.scrolled .navbar-links a {
-    color: green; /* Change to the color you want when scrolled */
-}
-
-
 .navbar-links a:hover {
-    color: #000; /* Adjust hover color as needed */
+    color: #08BF99; /* Adjust hover color as needed */
 }
 
 /* Responsive adjustments for mobile */

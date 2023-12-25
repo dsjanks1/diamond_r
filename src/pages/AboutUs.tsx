@@ -11,7 +11,8 @@ const AboutUs: React.FC = () => {
                     {/* <img src={leftAlignedImage} alt="Left aligned" className="img-fluid"/> */}
                     <div className='about-us-text-container'>
                     <h1>About Verified by VDV</h1>
-                    <p>Pioneers in Diamond Business Compliance, Welcome to verified by VDV, where expertise meets innovation in the realm of compliance for the diamond industry. With over 30 years of unwavering commitment to the industry, we stand as a beacon of excellence, providing comprehensive solutions that bridge the gap between regulatory complexities and the dynamic world of the diamond industry.</p>
+                    <h3>Pioneers in Diamond Business Compliance</h3>
+                    <p>Welcome to verified by VDV, where expertise meets innovation in the realm of compliance for the diamond industry. With over 30 years of unwavering commitment to the industry, we stand as a beacon of excellence, providing comprehensive solutions that bridge the gap between regulatory complexities and the dynamic world of the diamond industry.</p>
                 </div>
                 </div>
             </div>

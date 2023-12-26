@@ -1,82 +1,51 @@
-/* src/components/NavBar.css */
 .navbar-container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #ffffff00;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    background-color: #ffffff00; /* White background when scrolled */
 
-}
+  }
 
+  .navbar-container.scrolled {
+    background-color: #fff; /* White background when scrolled */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for better visibility */
+  }
 
 .logo-verified-vdv{
-    width: 100%;    /* Scale the logo width to fit its container */
-    height: auto;   /* Maintain the aspect ratio */
-    max-width: 200px; /* Maximum width of the logo */
-    object-fit: contain;
-    flex: 0 0 auto;
+    max-width: 40%;
+    height: auto;
 }
 
-.navbar-container.scrolled {
-    background-color: rgba(255, 255, 255, 0.923); /* Adjust transparency as needed */
-    /* border-bottom:2px solid #58616a; */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.text-black {
+    color: #000 !important;
 }
+
+.text-white {
+    color: #fff !important;
+}
+
 
 .navbar-logo img {
-    height: 60px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.navbar-links {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    align-items: center;
-    gap: 20px; /* Adjust the space between links as needed */
-}
 
-.navbar-links a {
-    text-decoration: none;
-    color: #000; /* Adjust color as needed */
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.navbar-links a:hover {
-    color: #08BF99; /* Adjust hover color as needed */
-}
 
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
+
+}
+@media (max-width: 768px) {
     .navbar-logo img {
-        height: 40px; /* Smaller logo on mobile */
+        height: 30px; /* Smaller logo on mobile */
     }
+    .navbar-brand, .navbar-toggler {
+      align-self: center;
+    }
+  
+    .navbar-collapse {
+      flex-grow: 0; /* Prevents the navbar from stretching */
+    }
+  }
 
-    .navbar-links {
-        gap: 10px; /* Less space between links on mobile */
-    }
-
-    .navbar-links a {
-        font-size: 0.8em; /* Smaller text on mobile */
-    }
-    .navbar-container {
-        padding: 10px; /* Adjust padding for all small devices */
-    }
-}
-
-/* You can add specific styles for iPhone 13 Pro Max using a media query and the device's height */
-/* iPhone 13 Pro Max has a height of 926px in portrait mode */
-@media only screen 
-  and (max-device-height: 926px) 
-  and (orientation: portrait) {
-    .navbar-container {
-        padding: 10px; /* Even smaller padding for iPhone 13 Pro Max */
-    }
-}
+/* NavBar.css */

@@ -1,37 +1,60 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/NavBar.css'; // Assuming your CSS file is in the same directory
-import verifiedVDVLogo from '../assets/VerifiedLOGO.png'; // Update the path to where your actual logo is
+import { Link, useLocation } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import verifiedVDVLogo from '../assets/VerifiedLOGO.png'; // Your default logo
+
+import '../styles/NavBar.css'; // Ensure this import points to your actual CSS file
 
 const NavBar: React.FC = () => {
-    const [scrolled, setScrolled] = useState(false);
+    const [expanded, setExpanded] = useState<boolean>(false);
+    const [scrolled, setScrolled] = useState<boolean>(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
-            const offset = window.scrollY;
-            setScrolled(offset > 200); // Adjust this value as needed
+            const isScrolled = window.scrollY > 50; // Adjust this value based on when you want the navbar to change
+            setScrolled(isScrolled);
         };
 
-        // Add scroll event listener
         window.addEventListener('scroll', handleScroll);
 
-        // Clean up the event listener
+        // Clean up the event listener when the component unmounts
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
+    const isAboutUs = location.pathname === '/about-us'; // Check if the current page is the home page
+
     return (
-        <nav className={`navbar-container ${scrolled ? 'scrolled' : ''}`}>
-            <div className="navbar-logo">
-                <img src={verifiedVDVLogo} alt="Logo" className="img-fluid logo-verified-vdv" />
-            </div>
-            <div className="navbar-links">
-                <Link to="/">Home</Link>
-                <Link to="/about-us">About Us</Link>
-                <Link to="/contact-us">Contact Us</Link>
-            </div>
-        </nav>
+        <Navbar 
+          expanded={expanded} 
+          expand="lg" 
+          fixed="top" 
+          className={scrolled ? 'navbar-container scrolled' : 'navbar-container'}
+        >
+            <Container>
+                <Navbar.Brand as={Link} to="/">
+                    <img
+                        src={verifiedVDVLogo}
+                        alt="Logo"
+                        height="30" // Set the height of your logo
+                        className="d-inline-block align-top"
+                    />
+                </Navbar.Brand>
+                <Navbar.Toggle 
+                    aria-controls="responsive-navbar-nav" 
+                    onClick={() => setExpanded(prevExpanded => !prevExpanded)}
+                />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mx-auto">
+                        <Nav.Link className={isAboutUs ? 'text-green' : ''}as={Link} to="/" onClick={() => setExpanded(false)}>Home</Nav.Link>
+                        <Nav.Link className={isAboutUs ? 'text-green' : ''} as={Link} to="/about-us" onClick={() => setExpanded(false)}>About Us</Nav.Link>
+                        <Nav.Link className={isAboutUs ? 'text-green' : ''} as={Link} to="/contact-us" onClick={() => setExpanded(false)}>Contact Us</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 

@@ -16,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+   
 }
 
 .about-us-mission {
@@ -100,17 +100,8 @@
     width: 100%; /* Set the desired width */
   }
   
-  /* Additional styles for responsiveness and positioning */
-  @media (max-width: 768px) {
-    .mission-container::before {
-      bottom: 60%; /* You might want to cover less than half on mobile for better aesthetics */
-    }
-  }
 
-/* Ensure your media queries are set up for responsive adjustments */
-@media (max-width: 768px) {
-    /* Adjust font sizes and spacing for mobile here */
-}
+
   
   .about-us-text-container h1 {
     font-size: 2.5rem; /* Adjust the size as needed */
@@ -129,12 +120,14 @@
         transform: translateY(-90px);
     }
 }
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .about-us-hero {
         padding: 20px 10px; /* Adjusted padding */
         background-attachment: scroll; /* Disable fixed background for better performance and compatibility */
         background-position: top center; /* Optional: Adjust this if you want to reposition the image */
+        padding-bottom: 400px;
     }
     
     .about-us-text-container {
@@ -155,6 +148,9 @@
         max-height: 320px;
 
     }
+    .mission-container::before {
+        bottom: 60%; /* You might want to cover less than half on mobile for better aesthetics */
+      }
 }
 
   

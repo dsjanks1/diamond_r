@@ -45,6 +45,8 @@
   
     .navbar-collapse {
       flex-grow: 0; /* Prevents the navbar from stretching */
+      text-align: end;
+      padding-right: 10px;
     }
   }
 

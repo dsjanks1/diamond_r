@@ -6,7 +6,7 @@ const AboutUs: React.FC = () => {
         <div className="about-us-wrapper">
             {/* Hero Section */}
             <section className="about-us-hero d-flex justify-content-center text-white">
-            <div className="row align-items-center feature-row">
+            <div className="row align-items-center about-row">
                 <div className="col-md-10 col-sm-12">
                     {/* <img src={leftAlignedImage} alt="Left aligned" className="img-fluid"/> */}
                     <div className='about-us-text-container'>

@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import '../styles/ContactUs.css'; // Ensure this file exists and contains the necessary styling
-import homeImg from '../assets/HomeIconTick.png';
+import homeImg from '../assets/contactIMG.png';
 
 const ContactUs: React.FC = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
   const [message, setMessage] = useState('');
 
   const submit = (event: React.FormEvent) => {
@@ -28,6 +29,16 @@ const ContactUs: React.FC = () => {
               placeholder="Full Name"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form-field">
+            <input
+              type="number"
+              id="number"
+              placeholder="Number"
+              value={number}
+              onChange={(e) => setNumber(e.target.value)}
               required
             />
           </div>

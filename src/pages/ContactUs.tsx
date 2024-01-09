@@ -10,49 +10,48 @@ const ContactUs: React.FC = () => {
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     // Process form submission here
-    // For example, send `fullName`, `email`, and `message` to your backend server
     alert(`Submission received from ${fullName}`);
   };
 
   return (
     <div className="contact-us-container">
-      <h1 className="text-center">Contact Us</h1>
+      <h1 className="contact-us-title">Contact Us</h1>
       <div className="image-container text-center">
-        <img src={homeImg} alt="Placeholder" className="centered-image" />
+        <img src={homeImg} alt="Contact Us" className="contact-us-image" />
       </div>
-      <section className="form-section">
-        <form onSubmit={submit} className="contact-form">
-          <div className="form-group">
-            <label htmlFor="fullName">Full Name</label>
+      <section className="contact-us-form-section">
+        <form onSubmit={submit} className="contact-us-form">
+          <div className="form-field">
             <input
               type="text"
               id="fullName"
+              placeholder="Full Name"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               required
             />
           </div>
-          <div className="form-group">
-            <label htmlFor="email">Email</label>
+          <div className="form-field">
             <input
               type="email"
               id="email"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
+          <div className="form-field">
             <textarea
               id="message"
+              placeholder="Your Message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
             />
           </div>
-          <button type="submit" className="submit-button">
-            Submit
+          <button type="submit" className="contact-us-submit-button">
+            Send Message
           </button>
         </form>
       </section>

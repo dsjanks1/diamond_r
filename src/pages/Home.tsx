@@ -29,9 +29,7 @@ const Home: React.FC = () => {
 
                     <h2 className='home-title-secondary'>KYC and KYB for the Diamond Industry</h2>
                     <p className="home-description">
-                        In the intricate world of diamond trading, where trust and transparency are paramount, 
-                        verified by VDV stands as your reliable partner, combining cutting-edge technology with 
-                        a human touch to ensure compliance with international regulators.
+                    verified by VDV is a tech-driven tool that assists you to verify those who do business with you. Coupled with our industry leading technology, our team of compliance experts is ready to assist you with inspections or audits by regulators.
                     </p>
                     </div>
                 </div>
@@ -59,13 +57,13 @@ const Home: React.FC = () => {
                         <div className="col-6 col-md-3 mb-3">
                             <i className="bi bi-people large-icon text-green"></i>
                             <h4 className="mt-2 font-weight-light text-light">Human Touch in a Digital World</h4>
-                            <p className='text-light'>Our expert team is ready to assist you throughout the onboarding process and beyond.</p>
+                            <p className='text-light'>Our team of experts assist you in crafting and implementing a compliance risk mitigation strategy bespoke for your business.</p>
                         </div>
                         {/* Icon 4 */}
                         <div className="col-6 col-md-3 mb-3">
                             <i className="bi bi-speedometer2 large-icon text-green"></i>
                             <h4 className="mt-2 font-weight-light text-light">Efficiency, Accuracy and Timeous</h4>
-                            <p className='text-light'>The automated verification checks and simplified data capturing streamline the KYC and KYB process.</p>
+                            <p className='text-light'>The simplified data capturing and automated verification checks streamline the KYC and KYB process to save you time and money</p>
                         </div>
                     </div>
                 </div>

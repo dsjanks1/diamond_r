@@ -15,7 +15,7 @@ const DualFeatureBox: React.FC = () => {
                         <p>Ongoing ID Monitoring</p>
                         <p>Known Face Search</p>
                         <p>Proof of Address Verification</p>
-                        <p>AML Screening: PEPs, sanctions, watchlists and adverse media</p>
+                        <p>AML (Anti Money Laundering) Screening: PEPs Politically Exposed Persons), sanctions, watchlists and adverse media</p>
                         <p>Email Verification</p>
                         <p>Phone Verification</p>                </div>
                         <div className="col-md-6 col-sm-12">
@@ -29,7 +29,7 @@ const DualFeatureBox: React.FC = () => {
                 <div className="col-md-6 col-sm-12 order-md-1 order-sm-1">
                     <h2>KYB – Know Your Businesss</h2>
                     <hr className="title-underline" />
-                    <p>Automated Corporate Registry Check</p>
+                    <p>Corporate Registry Check</p>
                         <p>Corporate AML Screening</p>
                         <p>Ownership and Management Structure</p>
                         <p>Intermediate Shareholder Check</p>

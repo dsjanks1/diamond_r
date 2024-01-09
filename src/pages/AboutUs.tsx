@@ -10,7 +10,6 @@ const AboutUs: React.FC = () => {
                 <div className="col-md-10 col-sm-12">
                     {/* <img src={leftAlignedImage} alt="Left aligned" className="img-fluid"/> */}
                     <div className='about-us-text-container'>
-                    <h1>About Verified by VDV</h1>
                     <h3>Pioneers in Diamond Business Compliance</h3>
                     <p>Welcome to verified by VDV, where expertise meets innovation in the realm of compliance for the diamond industry. With over 30 years of unwavering commitment to the industry, we stand as a beacon of excellence, providing comprehensive solutions that bridge the gap between regulatory complexities and the dynamic world of the diamond industry.</p>
                 </div>
@@ -33,7 +32,7 @@ const AboutUs: React.FC = () => {
                 <div className="home-content">
                     <h3 className="unparalleled-heading">Unparalleled Expertise</h3>
                     <p className="unparalleled-description">
-                    At verified by VDV, our team brings together a wealth of experience in finance, accounting, legal and technology. Our professionals are not just experts in their respective fields but also possess a keen understanding of the nuances of the diamond industry. This unique blend of skills positions us as a versatile and reliable partner, capable of navigating the complex intersection of regulation and the diamond industry.
+                    At verified by VDV, our team brings together a wealth of experience in finance, accounting, legal and technology. Our professionals are not just experts in their respective fields but also possess a keen understanding of the nuances of the diamond industry. This unique blend of skills positions us as a versatile and reliable partner, capable of navigating the intersection of regulation and the diamond industry.
                     </p>
                 </div>
             </div>

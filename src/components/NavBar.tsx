@@ -38,7 +38,7 @@ const NavBar: React.FC = () => {
                     <img
                         src={verifiedVDVLogo}
                         alt="Logo"
-                        height="30" // Set the height of your logo
+                        height="60" // Set the height of your logo
                         className="d-inline-block align-top"
                     />
                 </Navbar.Brand>

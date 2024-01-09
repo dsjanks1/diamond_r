@@ -2,16 +2,24 @@ import React, { useState } from 'react';
 import '../styles/ContactUs.css'; // Ensure this file exists and contains the necessary styling
 import homeImg from '../assets/contactUsIMG.png';
 
+const dialingCodes = [
+  { code: '+1', country: 'USA' },
+  { code: '+44', country: 'UK' },
+  { code: '+61', country: 'Australia' },
+  // ... add all other dialing codes here
+];
+
 const ContactUs: React.FC = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [number, setNumber] = useState('');
   const [message, setMessage] = useState('');
+  const [dialCode, setDialCode] = useState(dialingCodes[0].code);
 
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     // Process form submission here
-    alert(`Submission received from ${fullName}`);
+    alert(`Submission received from ${fullName} with dial code ${dialCode} and number ${number}`);
   };
 
   return (
@@ -33,6 +41,17 @@ const ContactUs: React.FC = () => {
             />
           </div>
           <div className="form-field">
+            <select
+              value={dialCode}
+              onChange={(e) => setDialCode(e.target.value)}
+              required
+            >
+              {dialingCodes.map((code) => (
+                <option key={code.code} value={code.code}>
+                  {code.code} ({code.country})
+                </option>
+              ))}
+            </select>
             <input
               type="number"
               id="number"

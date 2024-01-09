@@ -1,7 +1,6 @@
 .navbar-container {
     transition: background-color 0.3s; /* Smooth transition for background color */
     background-color: #ffffff00; /* White background when scrolled */
-
   }
 
   .navbar-container.scrolled {

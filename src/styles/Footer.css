@@ -1,0 +1,52 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the content */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around; /* Space out the columns */
+    align-items: start; /* Align items to the start of the flex container */
+    max-width: 1200px; /* Maximum width of the footer */
+    margin: auto; /* Center the footer content */
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px; /* Space between columns */
+  }
+  
+  .footer-column p {
+    margin: 5px 0; /* Space out the address lines */
+    font-size: 14px; /* Font size for the footer */
+  }
+  
+  .footer-email {
+    color: white; /* Use the same color as your other text for consistency */
+    text-decoration: none; /* Optional: removes the underline from links */
+  }
+  
+  .footer-email:hover,
+  .footer-email:focus {
+    text-decoration: underline; /* Adds an underline on hover for visual feedback */
+    color: #cccccc; /* Optional: change color on hover */
+  }
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      text-align: center;
+    }
+  
+    .footer-column {
+      margin-bottom: 10px; /* Space between columns on mobile */
+    }
+    .footer-column p {
+
+        font-size: 12px; /* Font size for the footer */
+      }
+  }
+  

@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer'; // Import the footer component
+
 import './styles/App.css'
 import './styles/Colours.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,6 +22,7 @@ const App: React.FC = () => {
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };

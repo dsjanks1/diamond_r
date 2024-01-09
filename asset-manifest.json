@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diamond_r/static/css/main.17c4daae.css",
-    "main.js": "/diamond_r/static/js/main.330c5e1f.js",
+    "main.js": "/diamond_r/static/js/main.89abdfcf.js",
     "static/js/787.416d4c4d.chunk.js": "/diamond_r/static/js/787.416d4c4d.chunk.js",
     "static/media/diamondLeave.jpg": "/diamond_r/static/media/diamondLeave.7ff4576ecf4df1940627.jpg",
     "static/media/lifescycle.png": "/diamond_r/static/media/lifescycle.26862def650ff1fa31a1.png",
@@ -15,11 +15,11 @@
     "static/media/VerifiedLOGO.png": "/diamond_r/static/media/VerifiedLOGO.fb8b4b3798ce8aef03a3.png",
     "index.html": "/diamond_r/index.html",
     "main.17c4daae.css.map": "/diamond_r/static/css/main.17c4daae.css.map",
-    "main.330c5e1f.js.map": "/diamond_r/static/js/main.330c5e1f.js.map",
+    "main.89abdfcf.js.map": "/diamond_r/static/js/main.89abdfcf.js.map",
     "787.416d4c4d.chunk.js.map": "/diamond_r/static/js/787.416d4c4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17c4daae.css",
-    "static/js/main.330c5e1f.js"
+    "static/js/main.89abdfcf.js"
   ]
 }

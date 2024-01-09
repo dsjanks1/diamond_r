@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/ContactUs.css'; // Ensure this file exists and contains the necessary styling
-import homeImg from '../assets/contactIMG.png';
+import homeImg from '../assets/contactUsIMG.png';
 
 const ContactUs: React.FC = () => {
   const [fullName, setFullName] = useState('');
@@ -18,7 +18,7 @@ const ContactUs: React.FC = () => {
     <div className="contact-us-container">
       <h1 className="contact-us-title">Contact Us</h1>
       <div className="image-container text-center">
-        <img src={homeImg} alt="Contact Us" className="contact-us-image" />
+        <img src={homeImg} alt="Contact Us" className="img-fluid" />
       </div>
       <section className="contact-us-form-section">
         <form onSubmit={submit} className="contact-us-form">

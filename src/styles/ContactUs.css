@@ -5,7 +5,7 @@
   margin: auto;
   padding: 50px 20px;
   font-family: 'Futura W05', sans-serif;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .contact-us-title {
@@ -64,4 +64,9 @@
   background-color: #0da889;
 }
 
+@media (max-width: 768px) {
+  .contact-us-container {
+    margin-top: 10px;
+  }
+}
 

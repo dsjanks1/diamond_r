@@ -81,7 +81,7 @@ const Home: React.FC = () => {
             <div className="horizontal-line-2"></div>
             </div>
 
-            <div className="text-secondary">
+            <div className="text-secondary" id="services-section">
                 <div className="home-content">
                 <h2 className="home-title">Our Services</h2>
                 </div>

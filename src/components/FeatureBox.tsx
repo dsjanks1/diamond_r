@@ -14,7 +14,7 @@ const FeatureBox: React.FC = () => {
                 <div className="hr-line-2"></div>
             </div>
                 <h3 className='text-dark'>Our Mission</h3>
-                <p className='text-grey-light'>Make Compliance Easy for the diamond industry. We do this by combining our extensive knowledge of regulatory frameworks with cutting-edge technology. Our aim is to provide a secure foundation for trading, allowing our clients to operate confidently in a world that has growing demands for the utmost in accountability and transparency.</p>
+                <p className='text-grey-light'>Make compliance easy for the diamond industry. We do this by combining our extensive knowledge of regulatory frameworks with cutting-edge technology. Our aim is to provide a secure foundation for trading, allowing our clients to operate confidently in a world that has growing demands for the utmost in accountability and transparency.</p>
 
             </div>
             

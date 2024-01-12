@@ -2,7 +2,7 @@
   "name": "diamond_r",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.vdvtrading.net/diamond_r",
+  "homepage": "http://www.vdvtrading.net",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",

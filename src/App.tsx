@@ -13,7 +13,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App: React.FC = () => {
   return (
-    <Router basename="/diamond_r">
+    <Router>
       <NavBar />
       <div className="content">
         <Routes>

@@ -1,10 +1,7 @@
 import React, {useState} from 'react';
 import '../styles/Home.css';
-import homeImg from '../assets/HomeIconTick.png';
-import ScrollAnimated from '../components/ScrollAnimated';
-import FeatureBox from '../components/FeatureBox';
+import homeImg from '../assets/VDVHomeIMG.png';
 import DualFeatureBox from '../components/DualFeatureBox';
-import FeatureBoxFour from '../components/FeatureBoxFour'
 const Home: React.FC = () => {
     const [activeTab, setActiveTab] = useState('kyc');
 
@@ -27,9 +24,9 @@ const Home: React.FC = () => {
                     </div>
                     <div className='order-lg-1 text-lg-left '>
 
-                    <h2 className='home-title-secondary'>KYC and KYB for the Diamond Industry</h2>
+                    <h2 className='home-title-secondary'>KYC (Know Your Client) and KYB (Know Your Business) for the Diamond Industry</h2>
                     <p className="home-description">
-                    verified by VDV is a tech-driven tool that assists you to verify those who do business with you. Coupled with our industry leading technology, our team of compliance experts is ready to assist you with inspections or audits by regulators.
+                    <span className='text-green'>verified</span> by VDV is a tech-driven tool that assists you to verify those who do business with you. Coupled with industry leading technology, our team of compliance experts our ready to assist you with inspections or audits by regulators.
                     </p>
                     </div>
                 </div>
@@ -63,7 +60,7 @@ const Home: React.FC = () => {
                         <div className="col-6 col-md-3 mb-3">
                             <i className="bi bi-speedometer2 large-icon text-green"></i>
                             <h4 className="mt-2 font-weight-light text-light">Efficiency, Accuracy and Timeous</h4>
-                            <p className='text-light'>The simplified data capturing and automated verification checks streamline the KYC and KYB process to save you time and money</p>
+                            <p className='text-light'>The simplified data capturing and automated verification checks streamline the KYC and KYB process to save you time and money.</p>
                         </div>
                     </div>
                 </div>
@@ -73,9 +70,9 @@ const Home: React.FC = () => {
                     <h2 className="home-title">Join <span className='text-green'>verified</span> by VDV</h2>
                     <p className="home-description">
                         In the ever-evolving landscape of the Diamond Industry, trust and compliance are the cornerstones of success.
-                        Choose verified by VDV as your KYC and KYB solution, and experience the confidence that comes with a partner
-                        dedicated to the security and prosperity of your business. Embrace the future of the diamond business with 
-                        verified by VDV — where technology meets trust.
+                        Choose <span className='text-green'>verified</span> by VDV as your KYC and KYB solution, and experience the confidence that comes with a partner
+                        dedicated to the security and prosperity of your business. Embrace the future of the diamond business with
+                        <span className='text-green'> verified</span> by VDV — where technology meets trust.
                     </p>
                     <a href="/signup" className="join-link bg-primary-green">Secure Your Diamond Business Future</a>
                 </div>
@@ -87,9 +84,7 @@ const Home: React.FC = () => {
             <div className="text-secondary">
                 <div className="home-content">
                 <h2 className="home-title">Our Services</h2>
- 
                 </div>
-            {/* <FeatureBox></FeatureBox> */}
             <DualFeatureBox></DualFeatureBox>
             </div>
 

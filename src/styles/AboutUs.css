@@ -128,6 +128,7 @@
         background-attachment: scroll; /* Disable fixed background for better performance and compatibility */
         background-position: top center; /* Optional: Adjust this if you want to reposition the image */
         padding-bottom: 400px;
+        margin-top: 30px;
     }
     
     .about-us-text-container {

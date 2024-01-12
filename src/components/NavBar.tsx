@@ -48,9 +48,9 @@ const NavBar: React.FC = () => {
                 />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link className={isAboutUs ? 'text-green' : ''}as={Link} to="/" onClick={() => setExpanded(false)}>Home</Nav.Link>
-                        <Nav.Link className={isAboutUs ? 'text-green' : ''} as={Link} to="/about-us" onClick={() => setExpanded(false)}>About Us</Nav.Link>
-                        <Nav.Link className={isAboutUs ? 'text-green' : ''} as={Link} to="/contact-us" onClick={() => setExpanded(false)}>Contact Us</Nav.Link>
+                        <Nav.Link className={isAboutUs ? 'text-green about-us-nav' : ''}as={Link} to="/" onClick={() => setExpanded(false)}>Home</Nav.Link>
+                        <Nav.Link className={isAboutUs ? 'text-green about-us-nav' : ''} as={Link} to="/about-us" onClick={() => setExpanded(false)}>About Us</Nav.Link>
+                        <Nav.Link className={isAboutUs ? 'text-green about-us-nav' : ''} as={Link} to="/contact-us" onClick={() => setExpanded(false)}>Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

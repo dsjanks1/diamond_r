@@ -75,6 +75,32 @@
   background-color: #0da889;
 }
 
+.contact-us-submit-button:disabled {
+  background-color: #ccc; /* Example color for disabled state */
+  cursor: not-allowed;
+  /* You can add more styling as needed */
+}
+
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px;
+  background-color: #08BF99;
+  color: white;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.toast-container button {
+  margin-left: 10px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
 @media (max-width: 768px) {
   .contact-us-container {
     margin-top: 10px;

@@ -2,14 +2,17 @@ import React, {useState} from 'react';
 import '../styles/Home.css';
 import homeImg from '../assets/HomeImg.png';
 import DualFeatureBox from '../components/DualFeatureBox';
-const Home: React.FC = () => {
-    const [activeTab, setActiveTab] = useState('kyc');
+import { Helmet } from 'react-helmet';
 
-    const handleTabClick = (tab: string) => {
-        setActiveTab(tab);
-    };
+const Home: React.FC = () => {
+
     return (
         <div>
+                <Helmet>
+                <title>Welcome to Verified by VDV - Your KYC and KYB Partner in the Diamond Industry</title>
+                <meta name="description" content="Verified by VDV offers comprehensive KYC and KYB solutions tailored for the diamond industry. Ensure compliance, efficiency, and trust with our industry-leading technology and expert guidance." />
+            </Helmet>
+
         <div className='text-secondary land-container'>
             <div className="container py-lg-6 text-center d-flex align-items-center">
                 <div className="align-items-lg-center home-welcome-container">

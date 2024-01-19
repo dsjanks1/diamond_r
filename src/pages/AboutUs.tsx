@@ -1,10 +1,15 @@
 import React from 'react';
 import '../styles/AboutUs.css'; // Ensure you create an AboutUs.css for styling
 import FeatureBox from '../components/FeatureBox';
+import { Helmet } from 'react-helmet'; // Import Helmet
+
 const AboutUs: React.FC = () => {
     return (
         <div className="about-us-wrapper">
-            {/* Hero Section */}
+            <Helmet>
+                <title>About Verified by VDV - Pioneering Compliance in the Diamond Industry</title>
+                <meta name="description" content="Discover the story of Verified by VDV, a leader in compliance solutions for the diamond industry. With over 30 years of experience, we offer unparalleled expertise in regulatory, financial, legal, and technological aspects, ensuring your diamond business thrives in a complex landscape." />
+            </Helmet>
             <section className="about-us-hero d-flex justify-content-center text-white">
             <div className="row align-items-center about-row">
                 <div className="col-md-10 col-sm-12">
